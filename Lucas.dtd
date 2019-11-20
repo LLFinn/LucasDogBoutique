@@ -1,0 +1,53 @@
+
+<!ELEMENT Lucas_Dog_Boutique (inventory, About_Us)>
+<!ELEMENT inventory (Dog_Treats|Leashes|Ingredients)>
+<!ELEMENT Dog_Treats (about|ingredients)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT leashes (leash_description, leash_color)>
+<!ELEMENT leash_description (#PCDATA)>
+<!ATTLIST leash_color (navy blue, pale pink, neon green, white, red)>
+<!ELEMENT accessories (tassels|hand_sanitizer|love dog magnet|snoopy leash charm)>
+<!ELEMENT tassels (tassel_description, tassel_color)>
+<!ELEMENT tassel_description (#PCDATA)>
+<!ATTLIST tassel_color (orange, brown, turquoise, red, grey, pink, fuchsia, lime green)>
+<!ELEMENT hand_sanitizer (hand_sanitizer_description #PCDATA)>
+<!ELEMENT About_Us (Our History, Our Commitment)>
+<!ELEMENT Our_History(#PCDATA)>
+<!ELEMENT Our_Commitment (#PCDATA)>
+
+
+<!ELEMENT Lucas_Dog_Boutique (inventory, About_Us)>
+<!ELEMENT inventory (Dog_Treats|Leashes|Ingredients)>
+<!ELEMENT Dog_Treats (about|ingredients)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT leashes (leash_description, leash_color)>
+<!ELEMENT leash_description (#PCDATA)>
+<!ATTLIST leash_color "leash_color"xml: (navy_blue, pale_pink, neon_green, white, red)>
+<!ELEMENT accessories (tassels|hand_sanitizer|love dog magnet|snoopy leash charm)>
+<!ELEMENT tassels (tassel_description, tassel_color)>
+<!ELEMENT tassel_description (#PCDATA)>
+<!ATTLIST tassel_color (orange, brown, turquoise, red, grey, pink, fuchsia, lime green)>
+<!ELEMENT hand_sanitizer (hand_sanitizer_description #PCDATA)>
+<!ELEMENT About_Us (Our History, Our Commitment)>
+<!ELEMENT Our_History(#PCDATA)>
+<!ELEMENT Our_Commitment (#PCDATA)>
+
+
+<!ELEMENT Lucas_Dog_Boutique (inventory, About_Us)>
+<!ELEMENT inventory (Dog_Treats|Leashes|Ingredients)>
+<!ELEMENT Dog_Treats (about|ingredients)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT leashes (leash_description, leash_color)>
+<!ELEMENT leash_description (#PCDATA)>
+<!ELEMENT leash_color (navy_blue, pale_pink, neon_green, white, red)>
+<!ELEMENT accessories (tassels|hand_sanitizer|love_dog_magnet|snoopy_leash_charm)>
+<!ELEMENT tassels (tassel_description, tassel_color)>
+<!ELEMENT tassel_description (#PCDATA)>
+<!ELEMENT tassel_color (orange, brown, turquoise, red, grey, pink, fuchsia, lime_green)>
+<!ELEMENT hand_sanitizer_description ( #PCDATA)>
+<!ELEMENT About_Us (Our_History, Our_Commitment)>
+<!ELEMENT Our_History (#PCDATA)>
+<!ELEMENT Our_Commitment (#PCDATA)>
